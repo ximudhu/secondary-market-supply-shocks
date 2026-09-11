@@ -1,0 +1,46 @@
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Environment secrets ───────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Large raw data (tracked via DVC or external storage instead) ──────────────
+data_raw/**/*.csv
+data_clean/**/*.csv
+# Keep directory stubs so git tracks the folders
+!data_raw/.gitkeep
+!data_clean/.gitkeep
+
+# ── Python cache & build artefacts ───────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Jupyter artefacts ────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── macOS system files ────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── IDE / editor configs ──────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Logs & temporary outputs ──────────────────────────────────────────────────
+*.log
+*.tmp
