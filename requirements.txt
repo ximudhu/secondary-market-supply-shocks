@@ -4,3 +4,7 @@ matplotlib
 seaborn
 requests
 python-dotenv
+openai
+jupyter
+ipykernel
+nbconvert

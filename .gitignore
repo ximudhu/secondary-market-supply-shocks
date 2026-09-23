@@ -44,3 +44,19 @@ build/
 # ── Logs & temporary outputs ──────────────────────────────────────────────────
 *.log
 *.tmp
+
+# ── Raw data files and thumbnail images (Privacy & Repo Size) ─────────────────
+data_raw/**/*.csv
+data_raw/**/*.png
+data_raw/**/*.jpg
+data_raw/**/*.jpeg
+# Ensure .gitkeep is STILL tracked to preserve directory structure
+!data_raw/**/.gitkeep
+
+# ── Private project metadata (contains real IP/product names) ─────────────────
+# config_meta.csv — maps anonymised Asset IDs to actual JP product names & dates
+config_meta.csv
+# HANDOVER.md — internal research notes with actual Japanese IP names
+HANDOVER.md
+# notes/ — personal reading notes and internal memos, not for public distribution
+notes/
