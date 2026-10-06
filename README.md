@@ -28,7 +28,7 @@ Of 954 raw transactions, 478 were classified as impure bundles and excluded; aft
 
 Five of six assets exhibit below-baseline normalised prices in the post-release period, with average Phase 3 erosion ranging from 6% to 42%.
 
-The most statistically reliable case is Asset C (plush mascot), which has a simultaneous announcement and availability date, providing a clean pre-shock baseline. Prices dropped approximately 42% within 48 hours of the release date and remained stable at that lower level across 68 subsequent observation days and 207 transactions.
+The most statistically reliable case is Asset C (plush mascot), which has a simultaneous announcement and availability date, providing a clean pre-shock baseline. Prices were approximately 42% below baseline within 48 hours of the release date and remained stable at that lower level across 68 subsequent observation days and 207 transactions. Part of the decline began a few days before the official date, consistent with a pre-announcement leak.
 
 For assets with a positive announcement-to-availability lead time, Phase 2 prices are systematically below Phase 1 levels before any physical stock becomes available, consistent with anticipatory price adjustment at the moment of the T1 announcement. The contrast between the instantaneous-shock case (largest Phase 3 erosion) and pre-announced cases (partial pre-release adjustment absorbed into the baseline) is qualitatively consistent with a two-stage efficient price discovery model.
 
